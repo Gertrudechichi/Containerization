@@ -13,7 +13,7 @@ from the host.
 The absence of a guest operating system is one of the factors that constitute the lightweight nature of containers. Again, the dockerized application will be able to use 
 enough resources from the host.
 
-Dockerfile is primarily used to build a single docker image loaclly which can be pushed to dockerhub.The docker image obtained from a dockerfile can be used to create multiple containers but this cannot be daone simmultaneously.The docker compose file can be used to build images by referencing a dockerfile created locally or by simply pulling images from the dockerhub.with this, the dockercompose file is able to run multiple containers at the same  time to host the busiiness logic 
+Dockerfile is primarily used to build a single docker image loaclly which can be pushed to dockerhub.The docker image obtained from a dockerfile can be used to create multiple containers but this cannot be daone simmultaneously.The docker compose file can be used to build images by referencing a dockerfile created locally or by simply pulling images from the dockerhub.with this, the dockercompose file is able to run multiple containers at the same  time to host the busiiness logic. 
 
 In this lab the dockercompose file was used to build an image of a docker file stored locally from the frontend directory and another image of  a dockerfile in the backend directory.The dockercompose file pulled an image from the docker hub as well. With these images, the dockercompose file was able to run three containers simultaneously to host their corresponding appliactions.
 
