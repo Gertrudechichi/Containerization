@@ -13,7 +13,7 @@ from the host.
 The absence of a guest operating system is one of the factors that constitute the the lightweight nature of containers. Again, the dockerized application will be able to use 
 enough resources from the host.
 
-This lab shows a step bys tep procedure in creating containers that can be used to run appliactions. 
+In this lab a dockerfile was used to create an image for a container. Here, the docker compose file used the image obtained from the dockerfile to create multiple containers , orchestrated and managed them to host an index.html file .
 
 
 
